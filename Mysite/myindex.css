@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin:0;
+    background-color:#ccc;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  /* Main Styles */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Login Form Styles */
+  .login {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .login label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .login input[type="submit"]:hover {
+    background-color: #222;
+  }
+  
+  /* Review Form Styles */
+  #myForm {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #myForm textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #myForm input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #myForm input[type="submit"]:hover {
+    background-color: #222;
+  }
+
+  .center {
+    display: block;
+    margin: auto;
+  }
+
